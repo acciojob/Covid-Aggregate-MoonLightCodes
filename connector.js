@@ -1,6 +1,4 @@
-const config = require("./config.json");
-
-const mongoURI = config.MONGODB_URI || "mongodb://localhost:27017" + "/covid";
+const mongoURI =  "mongodb://localhost:27017" + "/covid";
 
 let mongoose = require("mongoose");
 const { tallySchema } = require("./schema");
